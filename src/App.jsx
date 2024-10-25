@@ -20,6 +20,7 @@ import Check from "./Comp/Check"
 
 
 
+
 import {BrowserRouter,Route,Routes } from 'react-router-dom'
 
  
@@ -73,7 +74,7 @@ import {BrowserRouter,Route,Routes } from 'react-router-dom'
     
   
     <Routes>
-      <Route path="/" element={<Home />}/>
+      <Route path="/Reactvite" element={<Home />}/>
       <Route path="/detail" element={<Detail  detailpage={detailpage} detail={detail} setdetail={setdetail}  handle={handle}  cartItem={cartItem}   setcartItem={setcartItem}/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Cont/>}/>
